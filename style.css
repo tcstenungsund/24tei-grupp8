@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'ZTNature';
+    src: url('https://cdn.jsdelivr.net/gh/Erkan15/varpojektet@raw/refs/heads/main/ZTNature-Bold.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rosemartin';
+    src: url('https://cdn.jsdelivr.net/gh/Erkan15/varpojektet@raw/refs/heads/main/Rosemartin.otf')
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* { /*fixar background och lite annat*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://github.com/Erkan15/bild-till-projekt/raw/main/Copilot_20260421_125448.png);
+  background: repeat;
+}
+body { /*bakgrundsbild*/
+background-image: url(https://github.com/Erkan15/bild-till-projekt/raw/main/774c7740-83d7-49bc-bb66-d2847378e0d9.jpg);
+  
+}
+h1 { /*huvudloggan*/
+    font-family: 'ZTNature'; 
+    font-size: 4em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    
+}
+nav { /*navbaren*/
+  font-family: 'rosemartin';
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1.5em;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+dd { /*väldigt viktig information*/
+margin-top: 11%;
+text-align: center;
+}
+form, button { /*vet ärligt talat inte vad denhär gör*/
+width: 30%;
+}
+li { /*lista av bilder*/
+  display: inline;  
+  padding: 1.5em;
+}
+body { /*säger att allt ska vara i "rosemartin"*/
+  font-family:'rosemartin';
+  margin: 0;
+}
+.rad1 { /*rad 1 av bilder*/
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 20px;                
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 6%;            
+}
+a:hover { /*tar bort underline på länkar*/
+   text-decoration: none;
+}
+content div { /*container av bilder*/
+  flex: 1;                   
+  text-align: center;
+}
+content img { /*bilderna själv*/
+  width: 100%;               
+  aspect-ratio: 1 / 1;      
+  object-fit: cover;         
+  display: block;
+}
+content img:hover { /*bild hover propertyn*/
+transform: translateY(-0.2em);
+box-shadow: 0 0.25em 0.5em rgba(9, 9, 9, 00.1em);
+}
+.border { /*border*/
+  border: solid;
+  border-width: 1em;
+}
+.rad2 { /*rad 2 av bilder*/
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 20px;                
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 6%;    
+}
+.rad3 { /*rad 3 av bilder*/
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 20px;                
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 6%; 
+}
+.knapp:hover { /*vene*/
+transform: translateY(-0.2em);
+box-shadow: 0 0.25em 0.5em rgba(9, 9, 9, 00.1em);
+}
+h3 { /*neura i footern*/
+text-align: center;
+}
+.beskrivning { /*lång ahh text placeholder*/
+  font-family: 'rosemartin';      
+  font-size: 1.3em;   
+  width: 80ch; 
+  text-align: left;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  border: solid;
+  padding: 1.3em 1em;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.mi-bomba { /*alignar lite skit i footern*/
+  text-align: center;
+}
+.fuckbootstrap { /*ersättare för bootstrap*/
+  margin-left: 47%;
+}

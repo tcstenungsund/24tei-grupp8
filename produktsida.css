@@ -1,0 +1,86 @@
+/* produktside css börjar här*/
+html, body {
+  overflow-x: hidden;
+}
+h1 { /*titel*/
+    font-family: 'ZTNature'; 
+    font-size: 4em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    
+}
+nav { /*navbaren med en mörkare bakgrund*/
+  font-family: 'rosemartin';
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1.5em;
+  position: absolute; 
+  top: 0;
+  width: 100%;
+  background-color: #433633;
+  
+}
+a:hover {
+  text-decoration: none;
+}
+.produkt {/*själva produktsidan med bakgrundsbild*/
+  background-image: url(https://github.com/Erkan15/bild-till-projekt/raw/main/Copilot_20260421_143249.png);
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 10rem; /* så den inte hamnar under nav-baren */
+  padding: 2rem;
+  max-width: 100%;
+  
+}
+.produkt img {/*hur bilden sitter*/
+  width: 300px;
+  height: auto;
+  transform: none;
+  margin: 0;
+  margin-left: 19%;
+}
+.kortbeskrivning {/*beskrivning av produkten*/
+  background-image: none;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-family: 'rosemartin';
+ 
+}
+.titel {
+padding: 0.5em;
+padding-left: 1.5em;
+padding-right: 1.5em;
+}
+span {/*beskrivning av produkten*/
+  padding: 0.5rem;
+   min-width: 19em;
+   position: relative;
+   top: 6em;
+   right: 17em;
+   justify-content: flex-end;
+   display: block;
+   min-width: 25%;
+   min-height: 12%;
+}
+.knapp {/*köpknappen*/
+  justify-content: flex-end;
+  position: relative;
+  right: 32em;
+  margin-top: 16em;
+  padding-inline: 10em;
+}
+footer {/*footern*/
+  bottom: 0;
+}
+.mi-bomba {/*credentials och skit*/
+  text-align: center;
+}
+.fuckbootstrap {
+  margin-left: 47%;
+}
+h3 {/*loggan i slutet*/
+text-align: center;
+}
+

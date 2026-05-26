@@ -1,0 +1,63 @@
+html, body {
+  overflow-x: hidden;
+}
+body{
+background-image: url(https://github.com/Erkan15/bild-till-projekt/raw/main/om%20oss%20bakgrund%20sida.jpg);
+}
+h1 { /*titel*/
+    font-family: 'ZTNature'; 
+    font-size: 4em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em; 
+}
+nav { /*navbaren med en mörkare bakgrund*/
+  font-family: 'rosemartin';
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1.5em;
+  position: absolute; 
+  top: 0;
+  width: 100%;
+  background-color: #433633;
+  
+}
+a:hover { /*tar bort den fula underlinen på länkar*/
+  text-decoration: none;
+}
+.beskrivning { /*beskrivning "omoss" bra placeholder för tillfället*/
+  font-family: 'rosemartin';      
+  font-size: 1.3em;   
+  width: 80ch; 
+  text-align: left;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  border: solid;
+  padding: 1.3em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+.vie { /*o ja en värdelös klass men den funkar. Dessa vackra designare texten*/
+  text-align: center;  
+  font-family: 'rosemartin';
+}
+img { /*bilder till om oss*/
+  width: 300px;
+  height: auto;
+  transform: none;
+  margin-left: 17%;
+  display: inline;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 100%;
+  align-items: center;
+} 
+footer { /*footern*/
+  bottom: 0;
+}
+.fuckbootstrap { /*ärligt talat då fuck bootstrap. Den är till för att korrigera en attribut*/
+  margin-left: 48%;
+}
